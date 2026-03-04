@@ -1,1 +1,89 @@
-
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+.logos {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #7b2cbf, #3f51b5);
+}
+.poisk {
+    width: 380px;
+    background-color: #1e1e1e;
+}
+.poisk::placeholder {
+    color: gray;
+}
+.otstyp {
+    padding-top:70px;
+}
+.nav-link {
+    padding: 0.5rem 0;
+}
+.nav-link:hover{
+border-bottom: 2px solid #7b2cbf;
+padding-bottom: 0.25rem;
+}
+.poster {
+    width: 100%;
+    max-height: 550px;
+    object-fit: cover;
+}
+.zvezda {
+    font-size: 2rem;
+    color:#28a745;
+}
+.btn-primary{
+    background-color: #7b2cbf;
+    border-color: #7b2cbf;
+}
+.btn-primary:hover{
+    background-color: #5e189a;
+    border-color: #5e189a;
+}
+.topchik{
+    overflow: hidden;
+    border-radius: 12px;
+    aspect-ratio: 2/3;
+}
+.topchik img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.verx.rounded-pill.bg-primary {
+    background-color: #7b2cbf;
+    min-width: 32px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 1.1rem;
+    padding: 0 10px;
+    bottom: 10px;
+    left:10px;
+}
+.voiti {
+    background-color: #7b2cbf;
+    color:white;
+    border: none;
+    font-size: 1.1rem;
+}
+.card.bg-dark {
+    width: 100%;
+    background-color: #111;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    background-color: #111;
+}
+.card-titles {
+    background-color: #1e1e1e;
+    color: white;
+    font-size: 1.1rem;
+}
